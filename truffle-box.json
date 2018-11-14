@@ -12,6 +12,6 @@
     "Build for production": "npm run build"
   },
   "hooks": {
-    "post-unpack": "npm install"
+    "post-unpack": "npm install --no-audit"
   }
 }
